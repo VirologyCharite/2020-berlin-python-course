@@ -3,6 +3,7 @@
 ## Things we could learn about
 
 * BioPython
+* GitHub and git!
 * Python classes
 * Decorators
 * Testing
