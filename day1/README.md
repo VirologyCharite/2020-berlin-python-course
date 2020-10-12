@@ -69,3 +69,28 @@ If you have the local directory at the beginning of the system path, you can jus
 You can directly execute a python file just the same by e.g. using the hashbang `#! /bin/env python`, which uses your system's python.  
 What python is your system using? - `which python`  
 What python programs exist on your system? - `type -all python`
+
+## Git
+We created a branch and pulled/pushed/committed.
+## Biopython
+Looked at some packages, read a FASTA file.
+## Python code project structure
+_Example:_ Structure of the dark-matter repo.  
+
+Structure your code in directories  
+(write `__init.py__` to import from directories).
+* `/bin`  
+the main program
+* `/lib`  
+all the functions, most code sits here.
+* `/test`  
+all the test functions. Eg. use the unittest library:
+```
+from unittest import TestCase
+class TestStringMethods(TestCase):
+    def test_upper(self):
+        self.assertEqual('foo'.upper(), 'FOO')
+```
+and run Twisted's unit testing system called `trial` to test. Alternative: `pytest`.
+ 
+You could also use `assert` directly in the main code to do sanity checks, but these assertions are always called during runtime, i.e. they decrease performance.  
