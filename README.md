@@ -14,3 +14,8 @@
 * tr
 * grep
 * cut
+
+## TODO list
+
+* Learn about `for` loops.
+* Read the docs on [github](https://github.com).
