@@ -7,6 +7,7 @@
 * Python classes
 * Decorators
 * Testing
+* tests
 
 ## Shell utilities we like
 
