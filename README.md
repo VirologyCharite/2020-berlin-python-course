@@ -3,9 +3,8 @@
 ## Things we could learn about
 
 * BioPython
-* Python classes
-* Decorators
 * Testing
+* tests
 
 ## Shell utilities we like
 
