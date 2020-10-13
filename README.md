@@ -13,7 +13,11 @@
 `Morning`: Shell: working with git, `less`, [GNU Parallel](https://www.gnu.org/software/parallel/)
     ([Terry talk](http://antigenic-cartography.org/terry/do-stuff-on-things-in-parallel.html)).
 
-`Afternoon`: Python with Udo: pandas
+`Afternoon`: Python with Udo: pandas  
+
+* [Link](https://github.com/jvns/pandas-cookbook) to github repo  
+* [Link](https://mybinder.org/v2/gh/jvns/pandas-cookbook/master) to online notebook
+
 
 ### Thursday Oct 15
 
