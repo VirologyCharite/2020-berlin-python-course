@@ -16,6 +16,9 @@
 
 `Afternoon`: Python: pandas (Udo).
 
+* [Link](https://github.com/jvns/pandas-cookbook) to github repo
+* [Link](https://mybinder.org/v2/gh/jvns/pandas-cookbook/master) to online notebook
+
 ### Thursday Oct 15
 
 `Morning`: Shell: working with make. working with git. More random hacks.
