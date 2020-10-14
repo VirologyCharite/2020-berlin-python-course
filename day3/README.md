@@ -2,7 +2,7 @@
 Filter for data extraction.
 
 `awk 'pattern {actions}'`  
-`awk '$1 == 1962 {print $1, $2} < medals.txt`  
+`awk '$1 == 1962 {print $1, $2}' < medals.txt`  
 The `$` addresses columns. `$0` is the whole line, `$1` is the first column. One column is separated from another column by any amount of whitespaces (or another specified delimter).  
 The above prints columns 1 and 2 for all column-1-fields that equal 1962 in the `medals.txt` file.
 
