@@ -10,23 +10,26 @@
 
 ### Wednesday Oct 14
 
-`Morning`: Shell: working with git, `less`, [GNU Parallel](https://www.gnu.org/software/parallel/)
-    ([Terry talk](http://antigenic-cartography.org/terry/do-stuff-on-things-in-parallel.html)).
+`Morning`: Shell: `less`, Little languages: awk, perl, sed.
+[GNU Parallel](https://www.gnu.org/software/parallel/)
+([Terry talk](http://antigenic-cartography.org/terry/do-stuff-on-things-in-parallel.html)).
 
-`Afternoon`: Python with Udo: pandas
+`Afternoon`: Python: pandas (Udo).
 
 ### Thursday Oct 15
 
-`Morning`: Shell: working with make. Little languages: awk, perl, sed. More random hacks.
+`Morning`: Shell: working with make. working with git. More random hacks.
 
-`Afternoon`: Python with Leonie: Jupyter notebooks
+`Afternoon`: Python: introduction to classes
+[2017 notes](https://github.com/VirologyCharite/berlin-python-course-2017/blob/master/classes/)
+(Terry). Using pycharm and Jupyter notebooks (Leonie)
 
 ### Friday Oct 16
 
-`Morning`: Python scripts. argparse (tidy-columns.py), decorators, generators.
+`Morning`: Python: scripts using argparse (tidy-columns.py), decorators, generators, itertools.
+[dark matter](https://github.com/acorg/dark-matter)? Other stuff?
 
-`Afternoon`: Python classes [2017 notes](https://github.com/VirologyCharite/berlin-python-course-2017/blob/master/classes/),
-    dark matter
+`Afternoon`: Shell: tmux, random Terry hacks.
 
 
 
@@ -37,7 +40,7 @@
 #### Basics
 
 * Shell control flow
-* Shell metacharacters: `? [] * < > |` etc
+* Shell metacharacters: `* # | < > \ & $var [] ?`
 * Redirection
 * Affecting the current shell environment
 * Using `$(...)`
@@ -51,15 +54,16 @@
 
 #### Random hacks
 
-* `perl -pi.bak -e 's/xxx/yyy/'`
 * Converting whitespace to newlines
+* Are there any duplicated lines?
+
+* `perl -pi.bak -e 's/xxx/yyy/'`
 * Finding weird characters using `tr -d -c ...`.
 * Convert space separated into TAB separated: `cat output/LC480-or-T2/category-stats.txt | tr -s ' ' \t`
 * Looking for negative, positive, negative in JSON output for Guido:
   `egrep -A 2 '0\.0,$' output/LC480-or-T2/sa-min-3.json | egrep '0\.0$'`
 * Copying latest papers to print onto my USB drive: `cp -i $(grep -A 2000 'To print' papers.md | grep papers | tr '/),' ' ' | awk '{print $NF}') /media/terry/TERRY-KEYRI/vl/`
 * histogram input `tail -n +3 < /tmp/out-$days.txt | cut -f3 -d\ | histogram.py --bins 46 --x 'Error in estimate (days)' --title 'Optimization error histogram' --save /tmp/hist.png --noShow`
-* Are there any duplicated lines?
 * Find SARS-2 people with Ct value greater than some X
 
 #### Other
@@ -71,7 +75,6 @@
     * td, yd, tm (useful with `$(...)`).
     * lat, unt.
     * What are the file types in my bin?
-    * Tiny `to-papers` script I just wrote.
     * eks / uneks
 * [Github](https://github.com) and git!
 
