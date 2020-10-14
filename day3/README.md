@@ -9,7 +9,7 @@ The above prints columns 1 and 2 for all column-1-fields that equal 1962 in the 
 # sed
 Parses and transforms text.
 
-`sed -e 's/Speed skating/Speed-skating/ < medals.txt'`  
+`sed -e 's/Speed skating/Speed-skating/' < medals.txt`  
 Exchange string 'Speed skating' for 'Speed-skating'
 
 # perl
