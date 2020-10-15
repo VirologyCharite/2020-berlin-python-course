@@ -21,7 +21,7 @@
 
 ### Thursday Oct 15
 
-`Morning`: Shell: working with make. working with git. More random hacks.
+`Morning`: Shell: working with make, fabric, snakemake. working with git. More random hacks.
 
 `Afternoon`: Python: introduction to classes
 [2017 notes](https://github.com/VirologyCharite/berlin-python-course-2017/blob/master/classes/)
