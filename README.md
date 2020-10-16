@@ -2,6 +2,8 @@
 
 ## Proposed schedule going forward
 
+Here is the evolving schedule for the Python course.
+
 ### Tuesday Oct 13
 
 `Morning`: Python: conda, matplotlib (maybe plot.ly), histogram.py (see example use below)
