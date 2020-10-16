@@ -21,7 +21,7 @@
 
 ### Thursday Oct 15
 
-`Morning`: Shell: working with make, fabric, snakemake. working with git. tmux and screen. shell aliases and functions. More random hacks.
+`Morning`: Shell: working with make, fabric, snakemake. tmux and screen. shell aliases and functions. More random hacks.
 
 `Afternoon`: Python: introduction to classes
 [2017 notes](https://github.com/VirologyCharite/berlin-python-course-2017/blob/master/classes/)
@@ -32,7 +32,7 @@
 `Morning`: Python: scripts using argparse (tidy-columns.py), decorators, generators, itertools.
 [dark matter](https://github.com/acorg/dark-matter)? Other stuff?
 
-`Afternoon`: Shell: random Terry hacks?
+`Afternoon`: Shell: working with git. Random Terry hacks? pystdin.py
 
 
 
