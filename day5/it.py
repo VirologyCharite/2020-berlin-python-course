@@ -12,7 +12,9 @@ def myRepeat(value):
         yield value
 
 
-# for i in chain(a, b, repeat(10)):
+for i in chain(a, b, repeat(10)):
+    print(i)
+
 
 for i in zip(a, b):
     print(i)

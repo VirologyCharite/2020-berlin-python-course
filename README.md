@@ -113,3 +113,8 @@ Here is the evolving schedule for the Python course.
 * test
 * make
 * tmux
+
+## Summary of git commands
+
+* diff, status, add, commit, push, pull
+* remote
