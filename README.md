@@ -29,7 +29,7 @@
 
 ### Friday Oct 16
 
-`Morning`: Python: scripts using argparse (tidy-columns.py), decorators, generators, itertools.
+`Morning`: Python: decorators, generators, itertools.
 [dark matter](https://github.com/acorg/dark-matter)? Other stuff?
 
 `Afternoon`: Shell: working with git. Random Terry hacks? pystdin.py
